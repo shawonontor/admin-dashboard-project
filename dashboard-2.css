@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2 , 80% 20%);
+}
+.circle-box svg circle{
+    fill: none;
+    stroke-width: 15px;
+    stroke: aquamarine;
+    /* stroke-dashoffset: 50 ; */
+    stroke-dasharray: 4;
+    transform: translate(10px ,10px);
+}
+.table-section{
+    margin-left: 20px;
+}
+.table-section .table-1 th{
+    padding:45px;
+}
+
+.table-section .table-1 tr td{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    color: rgb(232, 79, 24);
+}
+.table-section .table-1 tr td img{
+    width: 40px;
+    border-radius: 50%;
+}
+.sell-product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
